@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type"
+          content="text/html; charset=utf-8"/>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1"/>
+    <link rel="shortcut icon"
+          href="icon.png">
+    <link rel="icon"
+          href="icon.png"
+          sizes="192x192">
+    <title>VCI Tool</title>
+    <!-- site style: -->
+    <link rel="stylesheet"
+          type="text/css"
+          href="css/site.css"
+          media="all"/>
+    <!-- site javascripts: -->
+    <script src="js/site.js"
+            charset="utf-8"
+            defer>
+    </script>
+  </head>
+  <body>
+    <!-- container start: -->
+    <div id="container"
+         class="container column">
+      <!-- header: -->
+      <div id="header"
+           class="header">
+          <img id="header_img"
+               class="header_image"
+               src='img/logo.png'>
+      </div>
+      <!-- navigation: -->
+      <div id="navigation"
+           class="navigation row flex_no_grow">
+      </div>
+      <!-- content: -->
+      <div id="content"
+           class="content column">
+
+        <!-- title: -->
+        <span class="content_vertical_space_1"></span>
+        <div id="content_title"
+             class="content_title row flex_center flex_no_grow">
+          <div class="content_title_item">
+            <h1>VCI Tool</h1>
+          </div>
+        </div>
+        <span class="content_vertical_space_1"></span>
+
+        <!-- informational text: -->
+        <div id="info text"
+             class="section_text flex_justify flex_no_grow">
+          Some informational text goes here.
+        </div>
+        <span class="content_vertical_space_1"></span>
+
+        <!-- section 01: -->
+        <div id="section_01"
+             class="section_text flex_justify flex_no_grow">
+          <h2>Primary criteria</h2>
+          <p>
+            Which of these do you know? (must satisfy at least one)
+          </p>
+
+          <!-- section 01 input: -->
+          <div id="section_01_in"
+               class="row_wrap flex_grow">
+
+            <!-- section 01 gmst input: -->
+            <div id="section_01_in_01"
+                 class="section_input">
+              <label id="section_01_in_01_label"
+                     class="section_input_title">
+                GMST
+              </label>
+              <label id="section_01_in_01_value_a"
+		     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_01_value_b"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_01_value_c"
+                     class="section_input_value">&#8203;</label>
+              <label class="radio_input">
+                Negligible
+                <input id="section_01_in_01_01"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="0">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-0.01°C < x</span>
+                <input id="section_01_in_01_02"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="1">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-0.1°C < x ≤ -0.01°C</span>
+                <input id="section_01_in_01_03"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="2">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-0.5°C < x ≤ -0.1°C</span>
+                <input id="section_01_in_01_04"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="3">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-2.0°C < x ≤ -0.5°C</span>
+                <input id="section_01_in_01_05"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="4">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">x ≤ -2.0°C</span>
+                <input id="section_01_in_01_06"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="5">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-10.0°C < x ≤ -2.0°C</span>
+                <span class="select_info_text">
+                  Spanning decades to centuries, possibly repeated
+                </span>
+                <input id="section_01_in_01_06"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="6">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unknown
+                <input id="section_01_in_01_07"
+                       type="radio"
+                       name="section_01_in_01_select"
+                       value="null"
+                       checked>
+                <span class="radio_check"></span>
+              </label>
+            <!-- end section 01 gmst input: -->
+            </div>
+
+            <!-- section 01 nhst input: -->
+            <div id="section_01_in_02"
+                 class="section_input">
+              <label id="section_01_in_02_label"
+                     class="section_input_title">
+                NHST
+              </label>
+              <label id="section_01_in_02_value_a"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_02_value_b"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_02_value_c"
+                     class="section_input_value">&#8203;</label>
+              <label class="radio_input">
+                Negligible
+                <input id="section_01_in_02_01"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="0">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Not detectable
+                <input id="section_01_in_02_02"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="1">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-0.25°C < x</span>
+                <input id="section_01_in_02_03"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="2">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-0.8°C < x ≤ -0.25°C</span>
+                <input id="section_01_in_02_04"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="3">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">-2.0°C ≤ x  ≤ -0.8°C</span>
+                <input id="section_01_in_02_05"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="4">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unknown
+                <input id="section_01_in_02_06"
+                       type="radio"
+                       name="section_01_in_02_select"
+                       value="null"
+                       checked>
+                <span class="radio_check"></span>
+              </label>
+            <!-- end section 01 nhst input: -->
+            </div>
+
+            <!-- section 01 gmst co2 input: -->
+            <div id="section_01_in_03"
+                 class="section_input">
+              <label id="section_01_in_03_label"
+                     class="section_input_title">
+                GMST (CO₂)
+              </label>
+              <label id="section_01_in_03_value_a"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_03_value_b"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_01_in_03_value_c"
+                     class="section_input_value">&#8203;</label>
+              <label class="radio_input">
+                Negligible
+                <input id="section_01_in_03_01"
+                       type="radio"
+                       name="section_01_in_03_select"
+                       value="0,1,2,3,4,5">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">x ≥ +2.0°C</span>
+                <span class="select_info_text">
+                  Spanning 10⁵ years or more
+                </span>
+                <input id="section_01_in_03_02"
+                       type="radio"
+                       name="section_01_in_03_select"
+                       value="6">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unknown
+                <input id="section_01_in_03_03"
+                       type="radio"
+                       name="section_01_in_03_select"
+                       value="null"
+                       checked>
+                <span class="radio_check"></span>
+              </label>
+            <!-- end section 01 gmst co2 input: -->
+            </div>
+
+          <!-- end section 01 input: -->
+          </div>
+
+          <!-- section 01 next button: -->
+          <div id="section_01_button"
+               class="div_button row flex_start">
+            <button id="section_01_next"
+                    class="next_button"
+                    disabled>
+              next
+            </button>
+          </div>
+
+        <!-- end section 01: -->
+        </div>
+        <span class="content_vertical_space_1"></span>
+
+
+        <!-- section 02: -->
+        <div id="section_02"
+             class="section_text section_hidden flex_justify flex_no_grow">
+          <h2>Further criteria</h2>
+          <p>
+            Which of these do you know?
+          </p>
+
+          <!-- section 02 input: -->
+          <div id="section_02_in"
+               class="row_wrap flex_grow">
+
+            <!-- section 02 stratospheric warming input: -->
+            <div id="section_02_in_01"
+                 class="section_input section_input_wide">
+              <label id="section_02_in_01_label"
+                     class="section_input_title">
+                Stratospheric warming
+              </label>
+              <label id="section_02_in_01_value_a"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_02_in_01_value_b"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_02_in_01_value_c"
+                     class="section_input_value">&#8203;</label>
+              <label class="radio_input">
+                Negligible
+                <input id="section_02_in_01_01"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="0,1">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text"><0.5°C</span>
+                <input id="section_02_in_01_02"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="2">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">0.5 to <3.5°C</span>
+                <input id="section_02_in_01_03"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="3">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                <span class="math_text">>3.5°C</span>
+                <input id="section_02_in_01_04"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="4">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unquantified but likely <span class="math_text">>5°C</span>
+                <input id="section_02_in_01_05"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="5">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unquantified but possibly <span class="math_text">>5°C</span>
+                for stratospheric injections
+                <input id="section_02_in_01_06"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="6">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unknown
+                <input id="section_02_in_01_06"
+                       type="radio"
+                       name="section_02_in_01_select"
+                       value="null"
+                       checked>
+                <span class="radio_check"></span>
+              </label>
+            <!-- end section 02 stratospheric warming input: -->
+            </div>
+
+            <!-- section 02 ocean heat input: -->
+            <div id="section_02_in_02"
+                 class="section_input section_input_wide">
+              <label id="section_02_in_02_label"
+                     class="section_input_title">
+                Decrease in ocean heat content
+              </label>
+              <label id="section_02_in_02_value_a"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_02_in_02_value_b"
+                     class="section_input_value">&#8203;</label>
+              <label id="section_02_in_02_value_c"
+                     class="section_input_value">&#8203;</label>
+              <label class="radio_input">
+                Negligible
+                <input id="section_02_in_02_01"
+                       type="radio"
+                       name="section_02_in_02_select"
+                       value="0,1">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Might be detectable for a series of eruptions
+                <input id="section_02_in_02_02"
+                       type="radio"
+                       name="section_02_in_02_select"
+                       value="2">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Detectable with possible modification of ocean circulation
+                <input id="section_02_in_02_03"
+                       type="radio"
+                       name="section_02_in_02_select"
+                       value="3,4">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Strong and lasting modification of ocean heat content and ocean circulation
+                <input id="section_02_in_02_04"
+                       type="radio"
+                       name="section_02_in_02_select"
+                       value="5,6">
+                <span class="radio_check"></span>
+              </label>
+              <label class="radio_input">
+                Unknown
+                <input id="section_02_in_01_05"
+                       type="radio"
+                       name="section_02_in_02_select"
+                       value="null"
+                       checked>
+                <span class="radio_check"></span>
+              </label>
+            <!-- end section 02 ocean heat input: -->
+            </div>
+
+          <!-- end section 02 input: -->
+          </div>
+
+          <!-- calculate vci button: -->
+          <div id="section_02_button"
+               class="div_button row flex_start">
+            <button id="calculate_vci"
+                    class="calculate_vci_button"
+                    disabled>
+              vci for this criteria
+            </button>
+          </div>
+
+        <!-- end section 02: -->
+        </div>
+        <span class="content_vertical_space_1"></span>
+
+        <!-- vci value: -->
+        <div id="vci_value"
+             class="section_text section_hidden">
+          <h2>VCI value</h2>
+
+            <span id="vci_value_value_a"
+                 class="vci_value_value"></span>
+            <span id="vci_value_value_b"
+                 class="vci_value_value"></span>
+            <span id="vci_value_value_c"
+                 class="vci_value_value"></span>
+
+              <div id="vci_value_sw"
+                   class="section_summary_text section_hidden">
+                Stratospheric warming consistent with VCI
+                <label id="vci_value_sw_a"
+                       class="section_input_value"></label>
+                <label id="vci_value_sw_b"
+                       class="section_input_value"></label>
+                <label id="vci_value_sw_c"
+                       class="section_input_value"></label>
+              </div>
+              <div id="vci_value_ohc"
+                   class="section_summary_text section_hidden">
+                Decrease in ocean heat content consistent with VCI
+                <label id="vci_value_ohc_a"
+                       class="section_input_value"></label>
+                <label id="vci_value_ohc_b"
+                       class="section_input_value"></label>
+                <label id="vci_value_ohc_c"
+                       class="section_input_value"></label>
+              </div>
+
+            <div id="vci_values" class="section_hidden"></div>
+
+        <!-- end vci value: -->
+        </div>
+        <span class="content_vertical_space_1"></span>
+
+      <!-- end content: -->
+      </div>
+      <!-- footer: -->
+      <div id="footer"
+           class="footer row flex_no_grow">
+        <div id="footer_text"
+             class="footer_text flex_center row">
+        </div>
+      </div>
+    <!-- container end: -->
+    </div>
+  </body>
+</html>
